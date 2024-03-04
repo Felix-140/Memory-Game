@@ -10,12 +10,12 @@
 
     initialPattern = randomGrid(cols, rows)
     grid = initialPattern.slice();
+    startTimer();
   }
 
   function draw() {
     background('black');
     drawGrid(grid);
-    startTimer();
   }
 
   function drawGrid(grid) {
